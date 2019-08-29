@@ -1,0 +1,6 @@
+---
+ - hosts: all
+   connection: local
+   tasks:
+     - name: mc 
+       apt: name=mc state=latest

@@ -1,0 +1,7 @@
+---
+ - hosts: remote
+   remote_user: root
+#   connection: local
+   tasks:
+     - name: mc
+       apt: name=mc state=absent

@@ -1,0 +1,9 @@
+---
+ - hosts: all
+   connection: local
+   tasks:
+   - name: Creates directory
+     file:  
+       path: /home/den/ansible/newdir
+       state: directory
+...
